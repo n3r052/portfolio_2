@@ -10,7 +10,7 @@ body {
     background-color: var(--color-base2);
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,p{
     color: var(--color-heading);
     font-weight: 700;
 }
@@ -34,6 +34,10 @@ img{
 }
 
 /* Navbar */
+.navbar{
+    background-color: var(--color-base);
+}
+
 .navbar .nav-link{
     font-weight: 700;
     text-transform: uppercase;
@@ -41,7 +45,7 @@ img{
 }
 
 .navbar .nav-link:hover{
-    
+
 }
 
 @media (min-width: 992px){
@@ -51,5 +55,10 @@ img{
         background: linear-gradient(rgba(3, 63, 71, 0.9),rgba(3, 63, 71, 0.9));
         background-size: cover;
         background-position: center;
+    }
+
+    /* Wrapper */
+    #content-wrapper{
+        padding-left: var(--sidebar-width);
     }
 }
