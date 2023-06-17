@@ -55,10 +55,6 @@ img{
     color: #fff;
 }
 
-/* .navbar .nav-link:hover{
-
-} */
-
 @media (min-width: 992px){
     .navbar{
         min-height: 100vh;
@@ -86,8 +82,8 @@ img{
     color: var(--color-base);
 }
 
-/* .btn-brand:hover,
-.btn-brand:focus {
+/* .btn-brand,
+.btn-brand {
     background-color: #fff;
     color: var(--color-base);
     border-color: azure;
