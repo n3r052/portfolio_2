@@ -30,6 +30,10 @@ img{
     width:100%;
 }
 
+.bg-base{
+    background-color: #033f47;
+}
+
 .full-height{
     min-height: 100vh;
     height: 100%;
