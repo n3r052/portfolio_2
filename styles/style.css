@@ -33,6 +33,11 @@ img{
     width:100%;
 }
 
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+}
+
 /* Navbar */
 .navbar{
     background-color: var(--color-base);
