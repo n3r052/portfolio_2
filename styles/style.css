@@ -73,3 +73,22 @@ img{
         padding-left: var(--sidebar-width);
     }
 }
+
+/* Button */
+.btn{
+    padding: 12px 28px;
+    font-weight: 700;
+}
+
+.btn-brand{
+    background-color: #fff;
+    border-color: #fff;
+    color: var(--color-base)
+}
+
+.btn-brand:hover,
+.btn-brand:focus{
+    background-color: azure;
+    color: var(--color-base);
+    border-color: azure;
+}
