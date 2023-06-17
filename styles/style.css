@@ -40,6 +40,10 @@ img{
     color: #fff;
 }
 
+.navbar .nav-link:hover{
+    
+}
+
 @media (min-width: 992px){
     .navbar{
         min-height: 100vh;
