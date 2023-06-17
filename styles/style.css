@@ -1,13 +1,14 @@
 :root {
     --color-body: #b6cbce;
-    --color-heading: #eef3db;
-    --color-base: #033f47;
-    --color-base2: #022a30;
+    --color-heading: #fff;
+    /* --color-base: #033f47; */
+    /* --color-base2: #022a30; */
     --sidebar-width: 250px;
 }
 
 body {
-    background-color: var(--color-base2);
+    /* background-color: var(--color-base2); */
+    background: #022a30;
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -24,10 +25,6 @@ a{
     -ms-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
 }
-
-/* a:hover{
-    color: var(--color-heading)
-} */
 
 img{
     width:100%;
@@ -46,8 +43,10 @@ img{
 
 /* Navbar */
 .navbar{
-    background-color: var(--color-base);
+    /* background-color: var(--color-base); */
+    background-color: #033f47;
 }
+
 
 .navbar .nav-link{
     font-weight: 700;
@@ -79,12 +78,10 @@ img{
 .btn-brand{
     background-color: #fff;
     border-color: #fff;
-    color: var(--color-base);
+    /* color: var(--color-base); */
+    color: #033f47;
 }
 
-/* .btn-brand,
-.btn-brand {
+.btn-brand:hover{
     background-color: #fff;
-    color: var(--color-base);
-    border-color: azure;
-} */
+}
