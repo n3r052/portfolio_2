@@ -3,6 +3,7 @@
     --color-heading: #eef3db;
     --color-base: #033f47;
     --color-base2: #022a30;
+    --sidebar-width: 250px;
 }
 
 body {
@@ -32,3 +33,13 @@ img{
     width:100%;
 }
 
+/* Navbar */
+@media (min-width: 992px){
+    .navbar{
+        min-height: 100vh;
+        width: var(--sidebar-width);
+        background: linear-gradient(rgba(3, 63, 71, 0.9),rgba(3, 63, 71, 0.9));
+        background-size: cover;
+        background-position: center;
+    }
+}
