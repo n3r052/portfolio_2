@@ -45,6 +45,25 @@ img{
     border-bottom: 2px solid rgba(255,255,255, 0.1);
 }
 
+/* .shadow-effect{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+} */
+
+.iconbox{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: aquamarine;
+    color: black;
+}
+
 /* Navbar */
 .navbar{
     /* background-color: var(--color-base); */
