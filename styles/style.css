@@ -83,12 +83,12 @@ img{
 .btn-brand{
     background-color: #fff;
     border-color: #fff;
-    color: var(--color-base)
+    color: var(--color-base);
 }
 
 .btn-brand:hover,
-.btn-brand:focus{
-    background-color: azure;
+.btn-brand:focus {
+    background-color: #fff;
     color: var(--color-base);
     border-color: azure;
 }
